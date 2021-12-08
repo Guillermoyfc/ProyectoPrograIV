@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: botom center;
+    background-size:100%;
+  }
+
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .btns{
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #1916a8;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    
+  }
+
+  .btns::before{
+    background: #1b00b6;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
+
+  #header
+{
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 16px;
+    color: White;
+    text-align: center;
+    position: relative;
+    top:0px;
+}
+
+.btn{
+    background-color:#371597;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color:crimson;
+  }
+  
+
+
+  .header {
+    color: #0c4f8a;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.table{
+  background-color: rgb(255, 255, 255);
+}
